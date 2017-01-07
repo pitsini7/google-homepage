@@ -1,0 +1,80 @@
+body {
+	font-family: sans-serif;
+}
+
+.heading {
+	color: #666;
+	font-size: small;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	border: 1px solid black;
+}
+
+.heading div {
+	display: inline-block; 
+	margin: 2px;
+	vertical-align: middle;
+}
+
+.googleArea {
+	margin-top: 200px;
+	border: 1px solid black;
+}
+
+.google-center {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 272px;
+	border: 1px solid red;
+}
+
+.google-center .logo-image {
+	height: 92px;
+	width: 272px;
+	border: 1px solid green;
+}
+
+.google-center .logo-subtext {
+	color: #8ba7f4;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.google-search {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 600px;
+	height: 100%;
+	margin-top: 30px;
+}
+
+.google-search .searchBox {
+	position: absolute;
+	padding: 10px 0;
+	width: 100%;
+}
+
+.google-search .mic {
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	right: 7px;
+	top: 7px;
+}
+
+.buttons {
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 272px;
+	color: red;
+}
+
+.eachButton {
+	color: #333;
+}
