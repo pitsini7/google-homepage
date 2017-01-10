@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+	font-family: arial,sans-serif;
 }
 
 .heading {
@@ -78,6 +78,71 @@ body {
 	width: 24px;
 }
 
+.google-search .tooltip {
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.google-search .tooltiptext {
+	background: rgb(45, 45, 45); 
+	border: 1px solid rgb(255, 255, 255); 
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px; 
+	box-sizing: border-box; 
+	color: rgb(255, 255, 255); 
+	display: block; 
+	font-size: 11px; 
+	font-weight: bold; 
+	height: 29px; 
+	left: 485px; 
+	line-height: 29px; 
+	padding: 0px 10px; 
+	position: absolute; 
+	text-align: center; 
+	top: 40px; 
+	transition: opacity 0.13s;
+	white-space: nowrap; 
+	z-index: 1;
+}
+
+.google-search .tooltiparrow {
+	border-color: rgb(255, 255, 255) transparent;
+	border-image: initial; 
+	border-style: solid; 
+	border-width: 0px 6px 6px;  
+	content: ""; 
+	display: block; 
+	font-size: 0px; 
+	height: 0px; 
+	left: 564px;
+	line-height: 0; 
+	position: absolute; 
+	top: 33px;  
+	width: 0px; 
+	z-index: 1; 
+}
+
+.google-search .tooltiparrow2 {
+	border-color: rgb(45, 45, 45) transparent;
+	border-image: initial; 
+	border-style: solid; 
+	border-width: 0px 6px 6px; 
+	content: ""; 
+	display: block; 
+	font-size: 0px; 
+	height: 0px; 
+	left: 564px;
+	line-height: 0; 
+	position: absolute; 
+	top: 35px;  
+	width: 0px; 
+	z-index: 2; 
+}
+
+.google-search .micArea:hover .tooltip {
+	visibility: visible;
+}
+
 .buttons {
 	margin-top: 100px;
 	margin-left: auto;
@@ -87,13 +152,13 @@ body {
 
 .eachButton {
 	background-color: #f2f2f2;
+	border-radius: 2px;
 	color: #808080;
 	display: inline-block; 
 	font-size: small;
 	font-weight: bolder;
 	margin: 0 2px;
 	padding: 10px 16px;
-	border-radius: 2px;
 }
 
 .eachButton:hover {
@@ -116,10 +181,10 @@ body {
 .footer {
 	background-color: #f2f2f2;
 	border: 1px solid #e6e6e6;
-	position: absolute;
-	width: 100%;
 	bottom: 0px;
 	height: 40px;
+	position: absolute;
+	width: 100%;
 }
 
 .footer a {
@@ -131,9 +196,11 @@ body {
 .footer .left {
 	float: left;
 }
+
 .footer .right {
 	float: right;
 }
+
 .footer div {
 	display: inline-block;
 	margin-top: 7px;

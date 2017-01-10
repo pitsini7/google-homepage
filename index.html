@@ -4,12 +4,6 @@
 	<title>Google</title>
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="styles/main.css" />
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
 	<header class="heading">
@@ -32,7 +26,15 @@
 		</div>
 		<div class="google-search">
 			<input type="text" class="searchBox" name="search" />
-			<img src="images/mic.png" alt="Microphone Button" class="mic" />
+				<div class="micArea">
+					<img src="images/mic.png" alt="Microphone Button" class="mic" />
+					<div class="tooltip">
+						<span class="tooltiptext">Search by voice</span>
+						<span class="tooltiparrow"></span>
+						<span class="tooltiparrow2"></span>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<center>
