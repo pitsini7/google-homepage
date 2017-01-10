@@ -1,22 +1,23 @@
 body {
 	font-family: arial,sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none; 
 }
 
 .heading {
 	color: #1a1a1a;
 	font-size: small;
-	position: absolute;
-	right: 25px;
+	right: 23px;
 	top: 15px;
+	position: absolute;
 }
-
-.heading a {
-	margin: 2px 5px;
-}
-
 .heading div {
 	display: inline-block; 
 	margin: 0px 5px;
+	vertical-align: middle;
 }
 
 .mail img {
@@ -26,7 +27,7 @@ body {
 }
 
 .googleArea {
-	margin-top: 200px;
+	margin-top: 198px;
 }
 
 .google-center {
@@ -42,8 +43,8 @@ body {
 }
 
 .google-center .logo-subtext {
-	bottom: 0;
-	color: #8ba7f4;
+	bottom: 3px;
+	color: #4285F4;
 	position: absolute;
 	right: 0;
 }
@@ -61,7 +62,7 @@ body {
 	border: 1px solid #d8d8d8;
     box-shadow: 1px 3px 5px rgba(191, 191, 191, 0.5);
 	position: absolute;
-	padding: 12px 0;
+	padding: 14px 0;
 	margin-left: 15px;
 	width: 97%;
 }
@@ -144,7 +145,7 @@ body {
 }
 
 .buttons {
-	margin-top: 100px;
+	margin-top: 60px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -180,7 +181,7 @@ body {
 
 .footer {
 	background-color: #f2f2f2;
-	border: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
 	bottom: 0px;
 	height: 40px;
 	position: absolute;
@@ -190,7 +191,7 @@ body {
 .footer a {
 	font-size: small;
 	color: #666666;
-	padding: 0px 12px;
+	padding: 0px 14px;
 }
 
 .footer .left {
@@ -203,6 +204,5 @@ body {
 
 .footer div {
 	display: inline-block;
-	margin-top: 7px;
-	margin-right: 15px;
+	margin: 10px 15px;
 }
